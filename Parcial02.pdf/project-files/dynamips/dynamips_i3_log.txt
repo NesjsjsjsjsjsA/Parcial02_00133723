@@ -1,0 +1,23 @@
+Jun 05 22:29:05.650 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Jun 05 22:29:05.650 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50775.
+Jun 05 22:29:05.654 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 05 22:29:05.654 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/alejandroayala/Documents/ArchU/Programming/RedesComputadoras/Parciales/Parcial02.pdf/project-files/dynamips 
+Jun 05 22:29:05.654 GENERAL: working_dir=/Users/alejandroayala/Documents/ArchU/Programming/RedesComputadoras/Parciales/Parcial02.pdf/project-files/dynamips
+Jun 05 22:29:05.654 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/alejandroayala/Documents/ArchU/Programming/RedesComputadoras/Parciales/Parcial02.pdf/project-files/dynamips/a265d89a-8b7d-4458-aaaa-bd7d49bb0d74 
+Jun 05 22:29:05.654 GENERAL: working_dir=/Users/alejandroayala/Documents/ArchU/Programming/RedesComputadoras/Parciales/Parcial02.pdf/project-files/dynamips/a265d89a-8b7d-4458-aaaa-bd7d49bb0d74
+Jun 05 22:29:05.654 HYPERVISOR: exec_cmd: vm create R3 3 c3725 
+Jun 05 22:29:05.654 VM: VM R3 created.
+Jun 05 22:29:05.655 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5003 
+Jun 05 22:29:05.655 HYPERVISOR: exec_cmd: c3725 get_mac_addr R3 
+Jun 05 22:29:05.655 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jun 05 22:29:05.655 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 05 22:29:05.655 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60c09aa0 
+Jun 05 22:29:05.655 HYPERVISOR: exec_cmd: vm set_ios R3 /Users/alejandroayala/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 05 22:29:05.656 HYPERVISOR: exec_cmd: c3725 set_mac_addr R3 c203.193c.0000 
+Jun 05 22:29:05.656 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Jun 05 22:29:05.947 HYPERVISOR: exec_cmd: nio create_udp udp-1200b8ff-a941-4870-b286-cdc0164b997d 10014 127.0.0.1 10015 
+Jun 05 22:29:06.169 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-1200b8ff-a941-4870-b286-cdc0164b997d 
+Jun 05 22:29:06.169 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 05 22:29:06.450 HYPERVISOR: exec_cmd: nio create_udp udp-79164e48-597a-41e5-8c34-5d4a55d92337 10026 127.0.0.1 10027 
+Jun 05 22:29:06.451 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-79164e48-597a-41e5-8c34-5d4a55d92337 
+Jun 05 22:29:06.451 HYPERVISOR: exec_cmd: vm get_status R3 
